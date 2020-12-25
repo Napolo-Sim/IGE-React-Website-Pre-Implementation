@@ -3,3 +3,10 @@
     max-width: 20vw;
     max-height: 10vh;
 }
+
+.Link{
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-right: 25px;
+}

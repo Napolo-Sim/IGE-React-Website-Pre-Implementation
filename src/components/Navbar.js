@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Modal, Button } from 'react-bootstrap';
 import './Navbar.css';
 
@@ -10,15 +11,18 @@ function NavBar() {
     const handleShow = () => setShow(true);
     return (
         <Navbar scrolling bg='light' fixed='top'>
-            <Navbar.Brand href="#home">
-                {/* PUT NAVBAR LOGO HERE EVEN IF IT LOOKS OLD */}
-                <img class="navLogo" alt="" src="https://vectr.com/napolo/h1ksE5GudR.svg?width=430&height=120&select=h1ksE5GudRpage0" className="d-inline-block align-top" />{' '}
-            </Navbar.Brand>
+            <Link to='/'>
+                <Navbar.Brand>
+                    {/* PUT NAVBAR LOGO HERE EVEN IF IT LOOKS OLD */}
+                    <img class="navLogo" alt="" src="https://vectr.com/napolo/h1ksE5GudR.svg?width=430&height=120&select=h1ksE5GudRpage0" className="d-inline-block align-top" />{' '}
+                </Navbar.Brand>
+            </Link>
+
             <Nav className="ml-auto">
-                <Nav.Link href="#WhoWeAre">Who We Are</Nav.Link>
-                <Nav.Link href="#TraineeProgram">Trainee Program</Nav.Link>
-                <Nav.Link href="#InternProgram">Intern Program</Nav.Link>
-                <Nav.Link href="#ApplyToHost">Apply to Host</Nav.Link>
+                <Link className="Link" to="/WhoWeAre">Who We Are</Link>
+                <Link className="Link" to="/TraineeProgram">Trainee Program</Link>
+                <Link className="Link" to="/InternProgram">Intern Program</Link>
+                <Link className="Link" to="/ApplyToHost">Apply To Host</Link>
             </Nav>
             <>
                 <Button variant="primary" onClick={handleShow}>Login/Sign Up</Button>
