@@ -1,0 +1,18 @@
+.navSpacer{
+    height: 12vh;
+    width:15vw;
+}
+
+.header{
+    font-size: 8vh;
+    text-decoration: underline;
+}
+
+h1 {
+    padding-top: 5vh;
+    padding-left: 3vw;
+}
+
+h3 {
+    padding-left: 3vw;
+}

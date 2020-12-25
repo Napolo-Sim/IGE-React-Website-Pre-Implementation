@@ -9,19 +9,19 @@ const HomeCarousel = () => {
                 <Carousel.Item interval={5000}>
                     <img
                         className="d-block w-100"
-                        src="https://www.wallpapertip.com/wmimgs/42-425586_international-business.jpg"
+                        src="https://www.keelingsknowledge.com/wp-content/uploads/2018/12/Keelings-Knowledge-Our-Solution-International-Trading.jpg"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h1>Dedicated to promoting U.S. exchange to the world</h1>
+                        <p>Dedicated to promoting U.S. exchange to the world</p>
                     </Carousel.Caption>
                 </Carousel.Item>
 
                 <Carousel.Item interval={5000}>
                     <img
                         className="d-block w-100"
-                        src="https://www.keelingsknowledge.com/wp-content/uploads/2018/12/Keelings-Knowledge-Our-Solution-International-Trading.jpg"
+                        src="https://www.wallpapertip.com/wmimgs/42-425586_international-business.jpg"
                         alt="Third slide"
                     />
                     <Carousel.Caption>
