@@ -1,0 +1,5 @@
+.navLogo{
+    object-fit: contain;
+    max-width: 20vw;
+    max-height: 10vh;
+}
