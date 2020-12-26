@@ -13,14 +13,16 @@ const WhoWeAre = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={6}>
+                    <Col>
                         <h1>ABOUT US</h1>
                         <h3>
                             Institute of Global Exchange, Inc. (IGE) a U.S. Department of State designated J-1 Visa sponsor
                             organization for the Intern and Trainee Exchange Visitor Programs.
                         </h3>
                     </Col>
-                    <Col lg={6}>
+                </Row>
+                <Row>
+                    <Col>
                         <h1>OUR MISSION</h1>
                         <h3>
                             Founded in 2008, IGE has worked with partners from all over
@@ -31,7 +33,7 @@ const WhoWeAre = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={6}>
+                    <Col>
                         <h1>
                             OUR OBJECTIVES
                         </h1>
@@ -45,7 +47,9 @@ const WhoWeAre = () => {
                             that unite us with other nations of the world.
                         </h3>
                     </Col>
-                    <Col lg={6}>
+                </Row>
+                <Row>
+                    <Col>
                         <h1>
                             OUR COMMITMENT
                         </h1>

@@ -4,7 +4,7 @@
 }
 
 .header{
-    font-size: 8vh;
+    font-size: 6vh;
     text-decoration: underline;
 }
 
@@ -13,6 +13,19 @@ h1 {
     padding-left: 3vw;
 }
 
-h3 {
+h3, h4, h5{
     padding-left: 3vw;
+}
+
+.referenceText{
+    font-style: italic;
+    font-size: 15px;
+}
+
+ul{
+    padding-left: 4vw;
+}
+
+li{
+    font-size: 20px;
 }
